@@ -1,0 +1,13 @@
+name = "ExtensionsTestDemo"
+uuid = "616845b9-c76f-4334-a9b0-b5b1f83ddc05"
+authors = ["Seth Axen <seth@sethaxen.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
