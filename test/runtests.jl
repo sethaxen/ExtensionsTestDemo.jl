@@ -1,6 +1,8 @@
 using ExtensionsTestDemo
+using StatsBase
 using Test
 
 @testset "ExtensionsTestDemo.jl" begin
-    # Write your tests here.
+
+    Base.get_extension(Main, :ExtensionsTestDemoStatsBaseExt)
 end
